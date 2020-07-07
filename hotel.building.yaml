@@ -2519,7 +2519,7 @@ levels:
       - [340, 346, {}]
     x_meters: 130
     y_meters: 40
-  lobby:
+  L1:
     doors:
       - [33, 32, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ""], type: [1, double_hinged]}]
       - [39, 40, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ""], type: [1, double_hinged]}]

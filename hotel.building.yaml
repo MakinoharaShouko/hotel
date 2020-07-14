@@ -26,7 +26,7 @@ levels:
       - [205, 206, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, entrance_2], type: [1, double_sliding]}]
       - [207, 208, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, entrance_1], type: [1, double_sliding]}]
       - [194, 195, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, exit_1], type: [1, hinged]}]
-      - [21, 24, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, ""], type: [1, double_hinged]}]
+      - [21, 24, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, l1_door19], type: [1, double_hinged]}]
       - [215, 214, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, l1_door18], type: [1, double_hinged]}]
       - [219, 218, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, restroom_2], type: [1, hinged]}]
       - [223, 222, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, restroom_3], type: [1, hinged]}]
@@ -61,7 +61,7 @@ levels:
         vertices: [172, 212, 213, 202, 203, 210, 209, 155, 156, 179, 180, 175, 177, 174, 173, 176]
       - parameters: {texture_name: [1, concrete], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [18, 20, 22, 23, 25, 26]
-      - parameters: {}
+      - parameters: {texture_name: [1, concrete], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [20, 16, 19, 22]
     layers:
       {}

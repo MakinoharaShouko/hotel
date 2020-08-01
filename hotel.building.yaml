@@ -32,7 +32,7 @@ levels:
       - [223, 222, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, restroom_3], type: [1, hinged]}]
       - [227, 228, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, restroom_1], type: [1, hinged]}]
       - [142, 141, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, l1_door5], type: [1, hinged]}]
-      - [30, 31, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, ""], type: [1, hinged]}]
+      - [30, 31, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "l1_door20"], type: [1, hinged]}]
     elevation: 0
     fiducials:
       - [1204, 40, ref1]

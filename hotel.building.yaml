@@ -46,7 +46,7 @@ levels:
         vertices: [23, 56, 57, 58, 63, 64, 65, 66, 81, 79, 78, 73, 82, 85, 84, 83, 110, 114, 106, 103, 98, 93, 5, 2, 26, 25]
       - parameters: {texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [128, 136, 139, 135, 134, 133, 132, 131, 130, 129]
-      - parameters: {texture_name: [1, w], texture_rotation: [3, 0], texture_scale: [3, 1]}
+      - parameters: {texture_name: [1, concrete], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [117, 118, 119, 120]
       - parameters: {texture_name: [1, concrete], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [114, 111, 115, 116, 127, 128, 129, 130, 131, 132, 133, 134, 140, 143, 155, 156, 179, 178, 169, 167, 103, 106]

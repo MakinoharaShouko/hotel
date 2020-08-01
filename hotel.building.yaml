@@ -3575,8 +3575,8 @@ lifts:
         x: 0
         y: -1.125
     level_doors:
+      L1: [door]
       guest_level: [door]
-      lobby: [door]
     reference_floor_name: guest_level
     width: 2
     x: 1182.5
@@ -3592,8 +3592,8 @@ lifts:
         x: 0
         y: -1.125
     level_doors:
+      L1: [door]
       guest_level: [door]
-      lobby: [door]
     reference_floor_name: guest_level
     width: 2
     x: 1247.25
@@ -3609,8 +3609,8 @@ lifts:
         x: 1.25
         y: 0
     level_doors:
+      L1: [door]
       guest_level: [door]
-      lobby: [door]
     reference_floor_name: guest_level
     width: 2.5
     x: 1220
@@ -3626,8 +3626,8 @@ lifts:
         x: 1.25
         y: 0
     level_doors:
+      L1: [door]
       guest_level: [door]
-      lobby: [door]
     reference_floor_name: guest_level
     width: 2.5
     x: 1220
@@ -3643,8 +3643,8 @@ lifts:
         x: -1.25
         y: 0
     level_doors:
+      L1: [door]
       guest_level: [door]
-      lobby: [door]
     reference_floor_name: guest_level
     width: 2.5
     x: 1340
@@ -3660,7 +3660,8 @@ lifts:
         x: -1.25
         y: 0
     level_doors:
-      {}
+      L1: [door]
+      guest_level: [door]
     reference_floor_name: guest_level
     width: 2.5
     x: 1340

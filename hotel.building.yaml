@@ -421,8 +421,6 @@ levels:
       - {model_name: MiniSofa, name: MiniSofa, static: true, x: 413.203, y: 501.536, yaw: -1.5708, z: 0}
       - {model_name: BigCubicle, name: BigCubicle, static: true, x: 2355.788, y: 52.133, yaw: -0.009299999999999999, z: 0}
       - {model_name: BigCubicle, name: BigCubicle, static: true, x: 2324.383, y: 52.157, yaw: 0, z: 0}
-      - {model_name: MonitorAndKeyboard, name: MonitorAndKeyboard, static: true, x: 2324.246, y: 48.6, yaw: -1.5657, z: 0}
-      - {model_name: MonitorAndKeyboard, name: MonitorAndKeyboard, static: true, x: 2355.679, y: 48.594, yaw: -1.5754, z: 0}
       - {model_name: OfficeChairGrey, name: OfficeChairGrey, static: true, x: 2324.109, y: 66.386, yaw: 3.1365, z: 0}
       - {model_name: OfficeChairGrey, name: OfficeChairGrey, static: true, x: 2356.581, y: 66.652, yaw: 3.1208, z: 0}
       - {model_name: MainTable, name: MainTable, static: true, x: 347.62, y: 235.542, yaw: -1.575, z: 0}
@@ -458,7 +456,6 @@ levels:
       - {model_name: WhiteCabinet, name: WhiteCabinet, static: true, x: 1911.679, y: 230.43, yaw: -3.1416, z: 0}
       - {model_name: OfficeChairGrey, name: OfficeChairGrey, static: true, x: 1091.954, y: 94.367, yaw: 2.8861, z: 0}
       - {model_name: BigCubicle, name: BigCubicle, static: true, x: 2294.01, y: 52.02, yaw: 0, z: 0}
-      - {model_name: MonitorAndKeyboard, name: MonitorAndKeyboard, static: true, x: 2294.01, y: 48.327, yaw: -1.5708, z: 0}
       - {model_name: OfficeChairGrey, name: OfficeChairGrey, static: true, x: 2293.6, y: 66.11199999999999, yaw: -3.1416, z: 0}
       - {model_name: MopCart3, name: MopCart3, static: true, x: 1633.847, y: 270.813, yaw: 0, z: 0}
       - {model_name: ConfTable, name: ConfTable, static: true, x: 2015.963, y: 425.963, yaw: 0, z: 0}

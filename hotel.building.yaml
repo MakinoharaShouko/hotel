@@ -32,7 +32,7 @@ levels:
       - [223, 222, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, restroom_3], type: [1, hinged]}]
       - [227, 228, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, restroom_1], type: [1, hinged]}]
       - [142, 141, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, l1_door5], type: [1, hinged]}]
-      - [30, 31, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "l1_door20"], type: [1, hinged]}]
+      - [30, 31, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, l1_door20], type: [1, hinged]}]
     elevation: 0
     fiducials:
       - [1204, 40, ref1]
@@ -197,6 +197,9 @@ levels:
       - [347, 348, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 2], orientation: [1, ""]}]
     layers:
       {}
+    measurements:
+      - [197, 199, {distance: [3, 17.7]}]
+      - [135, 139, {distance: [3, 4]}]
     models:
       - {model_name: fountain, name: fountain, static: true, x: 130.299, y: 313.388, yaw: 0, z: 0}
       - {model_name: pine_tree, name: pine_tree, static: true, x: 177.365, y: 196.292, yaw: 0, z: 0}
@@ -721,7 +724,7 @@ levels:
       - [1761, 230, 0, ""]
       - [1783, 230, 0, ""]
       - [1804, 230, 0, ""]
-      - [2133.56, 61.716, 0, "", {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, freyja_0], spawn_robot_type: [1, Robotika_Freyja_Sensor_Config_2]}]
+      - [2133.56, 61.716, 0, robot_start3, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, freyja_0], spawn_robot_type: [1, MiR100]}]
       - [2133.746, 115.215, 0, ""]
       - [2190.931, 115.215, 0, ""]
       - [2190.501, 265.185, 0, ""]
@@ -732,7 +735,7 @@ levels:
       - [2323.655, 86.578, 0, security, {is_parking_spot: [4, true]}]
       - [2400.063, 114.622, 0, ""]
       - [2400.251, 69.044, 0, ""]
-      - [2459.897, 69.58499999999999, 0, "", {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, freyja_1], spawn_robot_type: [1, Robotika_Freyja_Sensor_Config_2]}]
+      - [2459.897, 69.58499999999999, 0, robot_start1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, freyja_1], spawn_robot_type: [1, Robotika_Freyja_Sensor_Config_2]}]
       - [2328.605, 376.15, 0, guest_pickup2, {is_parking_spot: [4, true]}]
       - [2189.606, 373.609, 0, ""]
       - [2083.376, 398.803, 0, guest_waiting, {is_parking_spot: [4, true]}]
@@ -745,19 +748,19 @@ levels:
       - [1332.658, 237.626, 0, ""]
       - [1332.995, 396.464, 0, ""]
       - [1945.371, 396.495, 0, ""]
-      - [1441.803, 64.026, 0, "", {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_2], spawn_robot_type: [1, MiR100]}]
+      - [1441.803, 64.026, 0, robot_start4, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_2], spawn_robot_type: [1, MiR100]}]
       - [1439.915, 112.892, 0, locker_room, {is_parking_spot: [4, true]}]
       - [1427.827, 129.587, 0, ""]
       - [1426.847, 165.499, 0, ""]
       - [1398.275, 165.579, 0, ""]
-      - [1397.98, 110.9, 0, "", {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_1], spawn_robot_type: [1, MiR100]}]
+      - [1397.98, 110.9, 0, robot_start5, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_1], spawn_robot_type: [1, MiR100]}]
       - [1302.24, 166.095, 0, ""]
       - [1301.015, 70.974, 0, ""]
       - [1236.048, 165.114, 0, ""]
       - [1237.764, 69.01300000000001, 0, ""]
       - [1092.19, 164.568, 0, ""]
       - [1092.358, 117.5, 0, conference_room, {is_parking_spot: [4, true]}]
-      - [1050.27, 164.716, 0, ""]
+      - [1050.171, 164.494, 0, ""]
       - [1050.267, 126.174, 0, office, {is_parking_spot: [4, true]}]
       - [1549.229, 163.485, 0, ""]
       - [1549.229, 124.772, 0, load1, {is_parking_spot: [4, true]}]
@@ -808,7 +811,7 @@ levels:
       - [961.322, 499.267, 0, ""]
       - [695.521, 499.735, 0, ""]
       - [826.149, 499.678, 0, ""]
-      - [2536.237, 114.592, 0, "", {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, freyja_2], spawn_robot_type: [1, Robotika_Freyja_Sensor_Config_2]}]
+      - [2536.237, 114.592, 0, robot_start2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, freyja_2], spawn_robot_type: [1, MiR100]}]
       - [551.521, 399.147, 0, ""]
       - [553.172, 291.338, 0, ""]
       - [551.467, 500.193, 0, ""]
@@ -1088,7 +1091,7 @@ levels:
       - [759, 760, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, room38_door], type: [1, hinged]}]
       - [765, 764, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, room38_door2], type: [1, hinged]}]
       - [789, 250, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door3], type: [1, hinged]}]
-    elevation: 5
+    elevation: 10
     fiducials:
       - [1150, 40, ref1]
       - [1215, 40, ref2]

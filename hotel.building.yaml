@@ -775,7 +775,7 @@ levels:
       - [1391.183, 302.311, 0, ""]
       - [1268.413, 302.091, 0, ""]
       - [1392.756, 237.235, 0, ""]
-      - [1270.053, 237.911, 0, ""]
+      - [1273.89, 237.066, 0, ""]
       - [1161.76, 164.946, 0, ""]
       - [924.4880000000001, 155.705, 0, ""]
       - [924.342, 89.813, 0, kitchen1, {is_parking_spot: [4, true]}]
@@ -1058,6 +1058,14 @@ levels:
       - [106, 109, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, ""], type: [1, double_hinged]}]
       - [127, 128, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, ""], type: [1, double_hinged]}]
       - [130, 131, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ""], type: [1, double_hinged]}]
+      - [139, 140, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, ""], type: [1, hinged]}]
+      - [161, 162, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, ""], type: [1, hinged]}]
+      - [171, 172, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ""], type: [1, double_hinged]}]
+      - [174, 175, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ""], type: [1, double_hinged]}]
+      - [181, 182, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ""], type: [1, hinged]}]
+      - [195, 194, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ""], type: [1, hinged]}]
+      - [191, 190, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ""], type: [1, hinged]}]
+      - [201, 202, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, ""], type: [1, hinged]}]
     elevation: 10
     fiducials:
       - [1237, 40, ref1]
@@ -1081,7 +1089,7 @@ levels:
       - [330, 193, 0, ""]
       - [280, 173, 0, ""]
       - [264, 209, 0, ""]
-      - [330, 560, 0, ""]
+      - [330, 550, 0, ""]
       - [330, 45, 0, ""]
       - [1162, 40, 0, ""]
       - [1237, 40, 0, ""]
@@ -1110,8 +1118,8 @@ levels:
       - [330, 68, 0, ""]
       - [475, 490, 0, ""]
       - [525, 490, 0, ""]
-      - [475, 560, 0, ""]
-      - [525, 560, 0, ""]
+      - [475, 550, 0, ""]
+      - [525, 550, 0, ""]
       - [525, 450, 0, ""]
       - [525, 210, 0, ""]
       - [525, 405, 0, ""]
@@ -1146,11 +1154,11 @@ levels:
       - [550, 158, 0, ""]
       - [530, 158, 0, ""]
       - [525, 158, 0, ""]
-      - [975, 560, 0, ""]
+      - [975, 550, 0, ""]
       - [975, 100, 0, ""]
       - [975, 493, 0, ""]
       - [1005, 493, 0, ""]
-      - [1005, 560, 0, ""]
+      - [1005, 550, 0, ""]
       - [975, 105, 0, ""]
       - [975, 125, 0, ""]
       - [975, 167, 0, ""]
@@ -1199,9 +1207,79 @@ levels:
       - [1122, 117, 0, ""]
       - [1122, 157, 0, ""]
       - [1122, 215, 0, ""]
-      - [1132, 215, 0, ""]
-      - [1162, 215, 0, ""]
+      - [1142, 215, 0, ""]
       - [1172, 215, 0, ""]
+      - [1192, 215, 0, ""]
+      - [1122, 335, 0, ""]
+      - [1192, 335, 0, ""]
+      - [1272.003, 185, 0, ""]
+      - [1252, 185, 0, ""]
+      - [1252, 335, 0, ""]
+      - [1192, 185, 0, ""]
+      - [1247, 185, 0, ""]
+      - [1227, 185, 0, ""]
+      - [1272, 499, 0, ""]
+      - [1272, 559, 0, ""]
+      - [1272, 550, 0, ""]
+      - [1462, 559, 0, ""]
+      - [1462, 499, 0, ""]
+      - [1462, 550, 0, ""]
+      - [1417, 40, 0, ""]
+      - [1462, 65, 0, ""]
+      - [1292, 499, 0, ""]
+      - [1317, 499, 0, ""]
+      - [1355, 499, 0, ""]
+      - [1380, 499, 0, ""]
+      - [1418, 499, 0, ""]
+      - [1442, 499, 0, ""]
+      - [1595, 205, 0, ""]
+      - [1595, 335, 0, ""]
+      - [1562, 65, 0, ""]
+      - [1695, 65, 0, ""]
+      - [1695, 335, 0, ""]
+      - [1695, 295, 0, ""]
+      - [1690, 295, 0, ""]
+      - [1670, 295, 0, ""]
+      - [1660, 295, 0, ""]
+      - [1660, 335, 0, ""]
+      - [1595, 550, 0, ""]
+      - [1595, 530, 0, ""]
+      - [1695, 530, 0, ""]
+      - [1695, 550, 0, ""]
+      - [1753, 335, 0, ""]
+      - [1753, 310, 0, ""]
+      - [1758, 310, 0, ""]
+      - [1798, 310, 0, ""]
+      - [1695, 310, 0, ""]
+      - [1803, 310, 0, ""]
+      - [1843, 310, 0, ""]
+      - [1848, 310, 0, ""]
+      - [1848, 335, 0, ""]
+      - [1906, 310, 0, ""]
+      - [1906, 335, 0, ""]
+      - [1906, 65, 0, ""]
+      - [1901, 310, 0, ""]
+      - [1881, 310, 0, ""]
+      - [1820, 65, 0, ""]
+      - [1780.362, 65, 0, ""]
+      - [1906, 95, 0, ""]
+      - [1886, 95, 0, ""]
+      - [1695, 95, 0, ""]
+      - [1715, 95, 0, ""]
+      - [1825, 65, 0, ""]
+      - [1825, 70, 0, ""]
+      - [1825, 90, 0, ""]
+      - [1825, 95, 0, ""]
+      - [1775, 65, 0, ""]
+      - [1775, 70, 0, ""]
+      - [1775, 90, 0, ""]
+      - [1775, 95, 0, ""]
+      - [1755, 95, 0, ""]
+      - [1845, 95, 0, ""]
+      - [1964, 335, 0, ""]
+      - [1964, 310, 0, ""]
+      - [1911, 310, 0, ""]
+      - [1931, 310, 0, ""]
     walls:
       - [0, 1, {alpha: [3, 1], texture_name: [1, default]}]
       - [1, 2, {alpha: [3, 1], texture_name: [1, default]}]
@@ -1315,6 +1393,73 @@ levels:
       - [128, 129, {alpha: [3, 1], texture_name: [1, default]}]
       - [129, 130, {alpha: [3, 1], texture_name: [1, default]}]
       - [131, 132, {alpha: [3, 1], texture_name: [1, default]}]
+      - [129, 133, {alpha: [3, 1], texture_name: [1, default]}]
+      - [133, 134, {alpha: [3, 1], texture_name: [1, default]}]
+      - [134, 132, {alpha: [3, 1], texture_name: [1, default]}]
+      - [112, 135, {alpha: [3, 1], texture_name: [1, default]}]
+      - [135, 136, {alpha: [3, 1], texture_name: [1, default]}]
+      - [136, 137, {alpha: [3, 1], texture_name: [1, default]}]
+      - [137, 134, {alpha: [3, 1], texture_name: [1, default]}]
+      - [137, 117, {alpha: [3, 1], texture_name: [1, default]}]
+      - [132, 138, {alpha: [3, 1], texture_name: [1, default]}]
+      - [138, 140, {alpha: [3, 1], texture_name: [1, default]}]
+      - [139, 136, {alpha: [3, 1], texture_name: [1, default]}]
+      - [81, 143, {alpha: [3, 1], texture_name: [1, default]}]
+      - [143, 142, {alpha: [3, 1], texture_name: [1, default]}]
+      - [142, 144, {alpha: [3, 1], texture_name: [1, default]}]
+      - [144, 146, {alpha: [3, 1], texture_name: [1, default]}]
+      - [146, 145, {alpha: [3, 1], texture_name: [1, default]}]
+      - [143, 141, {alpha: [3, 1], texture_name: [1, default]}]
+      - [107, 147, {alpha: [3, 1], texture_name: [1, default]}]
+      - [120, 148, {alpha: [3, 1], texture_name: [1, default]}]
+      - [141, 149, {alpha: [3, 1], texture_name: [1, default]}]
+      - [150, 151, {alpha: [3, 1], texture_name: [1, default]}]
+      - [152, 153, {alpha: [3, 1], texture_name: [1, default]}]
+      - [154, 145, {alpha: [3, 1], texture_name: [1, default]}]
+      - [120, 155, {alpha: [3, 1], texture_name: [1, default]}]
+      - [148, 157, {alpha: [3, 1], texture_name: [1, default]}]
+      - [157, 158, {alpha: [3, 1], texture_name: [1, default]}]
+      - [161, 160, {alpha: [3, 1], texture_name: [1, default]}]
+      - [155, 156, {alpha: [3, 1], texture_name: [1, default]}]
+      - [156, 164, {alpha: [3, 1], texture_name: [1, default]}]
+      - [164, 163, {alpha: [3, 1], texture_name: [1, default]}]
+      - [163, 162, {alpha: [3, 1], texture_name: [1, default]}]
+      - [146, 165, {alpha: [3, 1], texture_name: [1, default]}]
+      - [166, 167, {alpha: [3, 1], texture_name: [1, default]}]
+      - [167, 168, {alpha: [3, 1], texture_name: [1, default]}]
+      - [166, 165, {alpha: [3, 1], texture_name: [1, default]}]
+      - [159, 169, {alpha: [3, 1], texture_name: [1, default]}]
+      - [169, 170, {alpha: [3, 1], texture_name: [1, default]}]
+      - [170, 171, {alpha: [3, 1], texture_name: [1, default]}]
+      - [160, 173, {alpha: [3, 1], texture_name: [1, default]}]
+      - [173, 170, {alpha: [3, 1], texture_name: [1, default]}]
+      - [173, 159, {alpha: [3, 1], texture_name: [1, default]}]
+      - [172, 174, {alpha: [3, 1], texture_name: [1, default]}]
+      - [175, 176, {alpha: [3, 1], texture_name: [1, default]}]
+      - [176, 177, {alpha: [3, 1], texture_name: [1, default]}]
+      - [177, 179, {alpha: [3, 1], texture_name: [1, default]}]
+      - [179, 178, {alpha: [3, 1], texture_name: [1, default]}]
+      - [176, 182, {alpha: [3, 1], texture_name: [1, default]}]
+      - [181, 178, {alpha: [3, 1], texture_name: [1, default]}]
+      - [158, 184, {alpha: [3, 1], texture_name: [1, default]}]
+      - [183, 180, {alpha: [3, 1], texture_name: [1, default]}]
+      - [180, 185, {alpha: [3, 1], texture_name: [1, default]}]
+      - [185, 178, {alpha: [3, 1], texture_name: [1, default]}]
+      - [186, 185, {alpha: [3, 1], texture_name: [1, default]}]
+      - [158, 187, {alpha: [3, 1], texture_name: [1, default]}]
+      - [187, 160, {alpha: [3, 1], texture_name: [1, default]}]
+      - [187, 188, {alpha: [3, 1], texture_name: [1, default]}]
+      - [197, 196, {alpha: [3, 1], texture_name: [1, default]}]
+      - [196, 192, {alpha: [3, 1], texture_name: [1, default]}]
+      - [192, 198, {alpha: [3, 1], texture_name: [1, default]}]
+      - [196, 195, {alpha: [3, 1], texture_name: [1, default]}]
+      - [191, 192, {alpha: [3, 1], texture_name: [1, default]}]
+      - [194, 193, {alpha: [3, 1], texture_name: [1, default]}]
+      - [190, 189, {alpha: [3, 1], texture_name: [1, default]}]
+      - [179, 199, {alpha: [3, 1], texture_name: [1, default]}]
+      - [200, 199, {alpha: [3, 1], texture_name: [1, default]}]
+      - [200, 202, {alpha: [3, 1], texture_name: [1, default]}]
+      - [178, 201, {alpha: [3, 1], texture_name: [1, default]}]
     x_meters: 150
     y_meters: 40
   guest_level:
@@ -3274,6 +3419,7 @@ levels:
       - [1276.034, 302.966, 0, ""]
       - [1215.223, 302.078, 0, ""]
       - [1340.45, 301.682, 0, ""]
+      - [1220, 237.5, 0, "", {lift_cabin: [1, guest_lift1]}]
     walls:
       - [0, 1, {alpha: [3, 1], texture_name: [1, default]}]
       - [1, 4, {alpha: [3, 1], texture_name: [1, default]}]
@@ -3979,6 +4125,7 @@ lifts:
         y: -1.125
     level_doors:
       L1: [door]
+      conference_level: [door]
       guest_level: [door]
     reference_floor_name: guest_level
     width: 2
@@ -3996,6 +4143,7 @@ lifts:
         y: -1.125
     level_doors:
       L1: [door]
+      conference_level: [door]
       guest_level: [door]
     reference_floor_name: guest_level
     width: 2
@@ -4013,6 +4161,7 @@ lifts:
         y: 0
     level_doors:
       L1: [door]
+      conference_level: [door]
       guest_level: [door]
     reference_floor_name: guest_level
     width: 2.5
@@ -4030,6 +4179,7 @@ lifts:
         y: 0
     level_doors:
       L1: [door]
+      conference_level: [door]
       guest_level: [door]
     reference_floor_name: guest_level
     width: 2.5
@@ -4047,6 +4197,7 @@ lifts:
         y: 0
     level_doors:
       L1: [door]
+      conference_level: [door]
       guest_level: [door]
     reference_floor_name: guest_level
     width: 2.5
@@ -4064,10 +4215,62 @@ lifts:
         y: 0
     level_doors:
       L1: [door]
+      conference_level: [door]
       guest_level: [door]
     reference_floor_name: guest_level
     width: 2.5
     x: 1340
     y: 302.5
+    yaw: 0
+  guest_lift5:
+    depth: 3
+    doors:
+      door:
+        door_type: 2
+        motion_axis_orientation: 0
+        width: 1
+        x: 0
+        y: 1.5
+    level_doors:
+      L1: [door]
+      conference_level: [door]
+    reference_floor_name: L1
+    width: 2.8
+    x: 1271.5
+    y: 529
+    yaw: 0
+  guest_lift6:
+    depth: 3
+    doors:
+      door:
+        door_type: 2
+        motion_axis_orientation: 0
+        width: 1
+        x: 0
+        y: 1.5
+    level_doors:
+      L1: [door]
+      conference_level: [door]
+    reference_floor_name: L1
+    width: 2.8
+    x: 1334.3
+    y: 529
+    yaw: 0
+  guest_lift7:
+    depth: 3
+    doors:
+      door:
+        door_type: 2
+        motion_axis_orientation: 0
+        width: 1
+        x: 0
+        y: 1.5
+    level_doors:
+      L1: [door]
+      conference_level: [door]
+    reference_floor_name: L1
+    width: 2.8
+    x: 1396.5
+    y: 529
     yaw: 0
 name: hotel

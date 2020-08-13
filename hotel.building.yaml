@@ -1110,7 +1110,7 @@ levels:
         vertices: [0, 1, 2, 6, 35, 33, 34, 51, 55, 48, 39, 41, 47, 66, 70, 64, 120, 127, 110, 104, 112, 116, 115, 142, 187, 190, 186, 183, 215, 219, 225, 222, 226, 236, 235, 234, 262, 264, 260, 261, 141, 101, 60, 12]
       - parameters: {texture_name: [1, white_marble], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [152, 167, 213, 226, 222, 225, 219, 215, 183, 186, 190, 187]
-      - parameters: {texture_name: [1, while_marble], texture_rotation: [3, 0], texture_scale: [3, 1]}
+      - parameters: {texture_name: [1, white_marble], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [162, 238, 242, 241]
     lanes:
       - [199, 309, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]

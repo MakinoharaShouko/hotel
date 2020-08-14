@@ -826,15 +826,15 @@ levels:
       - [382.147, 326.71, 0, cafe7, {is_parking_spot: [4, true]}]
       - [382.842, 279.288, 0, ""]
       - [318.557, 279.06, 0, cafe1, {is_parking_spot: [4, true]}]
-      - [1236.5, 72, 0, "", {lift_cabin: [1, cargo_lift1]}]
-      - [1301.25, 72, 0, "", {lift_cabin: [1, cargo_lift2]}]
-      - [1274, 237.5, 0, "", {lift_cabin: [1, guest_lift1]}]
-      - [1274, 302.5, 0, "", {lift_cabin: [1, guest_lift2]}]
-      - [1394, 237.5, 0, "", {lift_cabin: [1, guest_lift3]}]
-      - [1394, 302.5, 0, "", {lift_cabin: [1, guest_lift4]}]
-      - [1271.5, 524, 0, "", {lift_cabin: [1, guest_lift5]}]
-      - [1334.3, 524, 0, "", {lift_cabin: [1, guest_lift6]}]
-      - [1396.5, 524, 0, "", {lift_cabin: [1, guest_lift7]}]
+      - [1236.5, 70, 0, "", {lift_cabin: [1, cargo_lift1]}]
+      - [1301.25, 70, 0, "", {lift_cabin: [1, cargo_lift2]}]
+      - [1271.5, 237.5, 0, "", {lift_cabin: [1, guest_lift1]}]
+      - [1271.5, 302.5, 0, "", {lift_cabin: [1, guest_lift2]}]
+      - [1396.5, 237.5, 0, "", {lift_cabin: [1, guest_lift3]}]
+      - [1396.5, 302.5, 0, "", {lift_cabin: [1, guest_lift4]}]
+      - [1271.5, 526.5, 0, "", {lift_cabin: [1, guest_lift5]}]
+      - [1334.3, 526.5, 0, "", {lift_cabin: [1, guest_lift6]}]
+      - [1396.5, 526.5, 0, "", {lift_cabin: [1, guest_lift7]}]
       - [1333.596, 466.988, 0, ""]
       - [1396.341, 466.937, 0, ""]
       - [1271.966, 466.665, 0, ""]
@@ -1112,6 +1112,8 @@ levels:
         vertices: [152, 167, 213, 226, 222, 225, 219, 215, 183, 186, 190, 187]
       - parameters: {texture_name: [1, white_marble], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [162, 238, 242, 241]
+      - parameters: {texture_name: [1, concrete], texture_rotation: [3, 0], texture_scale: [3, 1]}
+        vertices: [136, 135, 139, 138]
     lanes:
       - [199, 309, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
       - [309, 310, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
@@ -1184,6 +1186,9 @@ levels:
       - [313, 312, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
     layers:
       {}
+    measurements:
+      - [5, 6, {distance: [3, 17.85]}]
+      - [6, 35, {distance: [3, 7.25]}]
     models:
       - {model_name: Fridge, name: Fridge, static: true, x: 387.815, y: 213.462, yaw: -1.5666, z: 0}
       - {model_name: Fridge, name: Fridge, static: true, x: 353.55, y: 201.175, yaw: 0.0052, z: 0}
@@ -1507,15 +1512,15 @@ levels:
       - [1964, 310, 0, ""]
       - [1911, 310, 0, ""]
       - [1931, 310, 0, ""]
-      - [1269.5, 72, 0, "", {lift_cabin: [1, cargo_lift1]}]
-      - [1334.25, 72, 0, "", {lift_cabin: [1, cargo_lift2]}]
-      - [1307, 237.5, 0, "", {lift_cabin: [1, guest_lift1]}]
-      - [1307, 302.5, 0, "", {lift_cabin: [1, guest_lift2]}]
-      - [1427, 237.5, 0, "", {lift_cabin: [1, guest_lift3]}]
-      - [1427, 302.5, 0, "", {lift_cabin: [1, guest_lift4]}]
-      - [1304.5, 524, 0, "", {lift_cabin: [1, guest_lift5]}]
-      - [1367.3, 524, 0, "", {lift_cabin: [1, guest_lift6]}]
-      - [1429.5, 524, 0, "", {lift_cabin: [1, guest_lift7]}]
+      - [1269.5, 70, 0, "", {lift_cabin: [1, cargo_lift1]}]
+      - [1334.25, 70, 0, "", {lift_cabin: [1, cargo_lift2]}]
+      - [1304.5, 237.5, 0, "", {lift_cabin: [1, guest_lift1]}]
+      - [1304.5, 302.5, 0, "", {lift_cabin: [1, guest_lift2]}]
+      - [1429.5, 237.5, 0, "", {lift_cabin: [1, guest_lift3]}]
+      - [1429.5, 302.5, 0, "", {lift_cabin: [1, guest_lift4]}]
+      - [1304.5, 526.5, 0, "", {lift_cabin: [1, guest_lift5]}]
+      - [1367.3, 526.5, 0, "", {lift_cabin: [1, guest_lift6]}]
+      - [1429.5, 526.5, 0, "", {lift_cabin: [1, guest_lift7]}]
       - [1969, 310, 0, ""]
       - [2009, 310, 0, ""]
       - [2014, 310, 0, ""]
@@ -1622,20 +1627,20 @@ levels:
       - [1359.975, 237.227, 0, ""]
       - [1360.196, 302.619, 0, ""]
       - [1361.013, 395.95, 0, ""]
-      - [1678.728, 393.885, 0, business_center, {is_parking_spot: [4, true]}]
-      - [1726.752, 395.421, 0, ""]
+      - [1675.576, 394.596, 0, business_center, {is_parking_spot: [4, true]}]
+      - [1724.987, 394.532, 0, ""]
       - [1725.049, 470.178, 0, meeting1, {is_parking_spot: [4, true]}]
       - [1774.683, 394.781, 0, ""]
       - [1775.354, 294.139, 0, conference1, {is_parking_spot: [4, true]}]
-      - [1935.131, 394.479, 0, ""]
-      - [1936.965, 468.857, 0, meeting2, {is_parking_spot: [4, true]}]
+      - [1936.522, 394.554, 0, ""]
+      - [1935.806, 468.378, 0, meeting2, {is_parking_spot: [4, true]}]
       - [1984.541, 394.431, 0, ""]
       - [1985.483, 291.272, 0, conference2, {is_parking_spot: [4, true]}]
       - [1367.519, 454.503, 0, ""]
       - [1430.547, 453.8, 0, ""]
       - [1304.981, 453.862, 0, ""]
       - [943.487, 423.182, 0, ballroom, {is_parking_spot: [4, true]}]
-      - [1678.001, 323.667, 0, conf_restroom, {is_parking_spot: [4, true]}]
+      - [1675.661, 322.638, 0, conf_restroom, {is_parking_spot: [4, true]}]
       - [2131.534, 394.969, 0, ""]
       - [2130.506, 101.913, 0, ""]
       - [2277.559, 103.204, 0, ""]
@@ -1664,12 +1669,12 @@ levels:
       - [1333.482, 117.803, 0, ""]
       - [1438.911, 159.741, 0, ""]
       - [1439.486, 51.858, 0, ""]
-      - [1798.204, 52.5, 0, ""]
+      - [1799.227, 52.218, 0, ""]
       - [1799.201, 80.21599999999999, 0, ""]
-      - [1860.413, 79.73099999999999, 0, ""]
-      - [1866.242, 123.939, 0, conference1_back, {is_parking_spot: [4, true]}]
-      - [2010.881, 52.51, 0, ""]
-      - [2010.919, 80.864, 0, ""]
+      - [1872.194, 80.254, 0, ""]
+      - [1872.26, 127.587, 0, conference1_back, {is_parking_spot: [4, true]}]
+      - [2010.967, 52.233, 0, ""]
+      - [2010.967, 80.431, 0, ""]
       - [2076.535, 80.068, 0, ""]
       - [2076.535, 120.595, 0, conference2_back, {is_parking_spot: [4, true]}]
       - [2129.843, 52.274, 0, ""]
@@ -3870,12 +3875,12 @@ levels:
       - [1247.672, 110.091, 0, ""]
       - [1275.388, 237.243, 0, ""]
       - [1276.034, 302.966, 0, ""]
-      - [1182.5, 72, 0, "", {lift_cabin: [1, cargo_lift1]}]
-      - [1247.25, 72, 0, "", {lift_cabin: [1, cargo_lift2]}]
-      - [1220, 237.5, 0, "", {lift_cabin: [1, guest_lift1]}]
-      - [1220, 302.5, 0, "", {lift_cabin: [1, guest_lift2]}]
-      - [1340, 237.5, 0, "", {lift_cabin: [1, guest_lift3]}]
-      - [1340, 302.5, 0, "", {lift_cabin: [1, guest_lift4]}]
+      - [1182.5, 70, 0, "", {lift_cabin: [1, cargo_lift1]}]
+      - [1247.25, 70, 0, "", {lift_cabin: [1, cargo_lift2]}]
+      - [1217.5, 237.5, 0, "", {lift_cabin: [1, guest_lift1]}]
+      - [1217.5, 302.5, 0, "", {lift_cabin: [1, guest_lift2]}]
+      - [1342.5, 237.5, 0, "", {lift_cabin: [1, guest_lift3]}]
+      - [1342.5, 302.5, 0, "", {lift_cabin: [1, guest_lift4]}]
     walls:
       - [0, 1, {alpha: [3, 1], texture_name: [1, default]}]
       - [1, 4, {alpha: [3, 1], texture_name: [1, default]}]
@@ -4586,7 +4591,7 @@ lifts:
     reference_floor_name: L1
     width: 2
     x: 1236.5
-    y: 72
+    y: 70
     yaw: 0
   cargo_lift2:
     depth: 2.25
@@ -4604,7 +4609,7 @@ lifts:
     reference_floor_name: L1
     width: 2
     x: 1301.25
-    y: 72
+    y: 70
     yaw: 0
   guest_lift1:
     depth: 2
@@ -4621,7 +4626,7 @@ lifts:
       guest_level: [door]
     reference_floor_name: L1
     width: 2.5
-    x: 1274
+    x: 1271.5
     y: 237.5
     yaw: 0
   guest_lift2:
@@ -4639,7 +4644,7 @@ lifts:
       guest_level: [door]
     reference_floor_name: L1
     width: 2.5
-    x: 1274
+    x: 1271.5
     y: 302.5
     yaw: 0
   guest_lift3:
@@ -4657,7 +4662,7 @@ lifts:
       guest_level: [door]
     reference_floor_name: L1
     width: 2.5
-    x: 1394
+    x: 1396.5
     y: 237.5
     yaw: 0
   guest_lift4:
@@ -4675,7 +4680,7 @@ lifts:
       guest_level: [door]
     reference_floor_name: L1
     width: 2.5
-    x: 1394
+    x: 1396.5
     y: 302.5
     yaw: 0
   guest_lift5:
@@ -4693,7 +4698,7 @@ lifts:
     reference_floor_name: L1
     width: 2.8
     x: 1271.5
-    y: 524
+    y: 526.5
     yaw: 0
   guest_lift6:
     depth: 2.5
@@ -4710,7 +4715,7 @@ lifts:
     reference_floor_name: L1
     width: 2.8
     x: 1334.3
-    y: 524
+    y: 526.5
     yaw: 0
   guest_lift7:
     depth: 2.5
@@ -4727,6 +4732,6 @@ lifts:
     reference_floor_name: L1
     width: 2.8
     x: 1396.5
-    y: 524
+    y: 526.5
     yaw: 0
 name: hotel

@@ -816,7 +816,7 @@ levels:
       - [551.467, 500.193, 0, ""]
       - [553.452, 343.951, 0, table7, {is_parking_spot: [4, true]}]
       - [550.862, 453.889, 0, table8, {is_parking_spot: [4, true]}]
-      - [384.126, 197.704, 0, bar, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, caddy_0], spawn_robot_type: [1, Caddy]}]
+      - [384.126, 197.704, 0, bar, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, x2_0], spawn_robot_type: [1, X2]}]
       - [319.563, 197.414, 0, ""]
       - [319.042, 337.759, 0, cafe2, {is_parking_spot: [4, true]}]
       - [319.355, 402.291, 0, cafe3, {is_parking_spot: [4, true]}]
@@ -832,9 +832,9 @@ levels:
       - [1274, 302.5, 0, "", {lift_cabin: [1, guest_lift2]}]
       - [1394, 237.5, 0, "", {lift_cabin: [1, guest_lift3]}]
       - [1394, 302.5, 0, "", {lift_cabin: [1, guest_lift4]}]
-      - [1271.5, 529, 0, "", {lift_cabin: [1, guest_lift5]}]
-      - [1334.3, 529, 0, "", {lift_cabin: [1, guest_lift6]}]
-      - [1396.5, 529, 0, "", {lift_cabin: [1, guest_lift7]}]
+      - [1271.5, 524, 0, "", {lift_cabin: [1, guest_lift5]}]
+      - [1334.3, 524, 0, "", {lift_cabin: [1, guest_lift6]}]
+      - [1396.5, 524, 0, "", {lift_cabin: [1, guest_lift7]}]
       - [1333.596, 466.988, 0, ""]
       - [1396.341, 466.937, 0, ""]
       - [1271.966, 466.665, 0, ""]
@@ -1513,9 +1513,9 @@ levels:
       - [1307, 302.5, 0, "", {lift_cabin: [1, guest_lift2]}]
       - [1427, 237.5, 0, "", {lift_cabin: [1, guest_lift3]}]
       - [1427, 302.5, 0, "", {lift_cabin: [1, guest_lift4]}]
-      - [1304.5, 529, 0, "", {lift_cabin: [1, guest_lift5]}]
-      - [1367.3, 529, 0, "", {lift_cabin: [1, guest_lift6]}]
-      - [1429.5, 529, 0, "", {lift_cabin: [1, guest_lift7]}]
+      - [1304.5, 524, 0, "", {lift_cabin: [1, guest_lift5]}]
+      - [1367.3, 524, 0, "", {lift_cabin: [1, guest_lift6]}]
+      - [1429.5, 524, 0, "", {lift_cabin: [1, guest_lift7]}]
       - [1969, 310, 0, ""]
       - [2009, 310, 0, ""]
       - [2014, 310, 0, ""]
@@ -1639,8 +1639,8 @@ levels:
       - [2131.534, 394.969, 0, ""]
       - [2130.506, 101.913, 0, ""]
       - [2277.559, 103.204, 0, ""]
-      - [2277.872, 53.193, 0, conf_magni_start, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, conf_magni_0], spawn_robot_type: [1, Magni]}]
-      - [344.711, 107.54, 0, conf_mir100_start0, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, conf_mir100_0], spawn_robot_type: [1, MiR100]}]
+      - [2277.872, 53.193, 0, conf_magni_start, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, magni_conf_0], spawn_robot_type: [1, Magni]}]
+      - [344.711, 107.54, 0, conf_mir100_start0, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_conf_0], spawn_robot_type: [1, MiR100]}]
       - [344.711, 53.965, 0, ""]
       - [414.77, 53.708, 0, ""]
       - [444.391, 53.965, 0, ""]
@@ -1649,8 +1649,8 @@ levels:
       - [511.284, 247.967, 0, ""]
       - [442.435, 247.967, 0, conf_kitchen, {is_parking_spot: [4, true]}]
       - [511.022, 409.287, 0, ""]
-      - [415.543, 108.828, 0, conf_mir100_start1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, conf_mir100_1], spawn_robot_type: [1, MiR100]}]
-      - [444.133, 108.57, 0, conf_mir100_start2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, conf_mir100_2], spawn_robot_type: [1, MiR100]}]
+      - [415.543, 108.828, 0, conf_mir100_start1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_conf_1], spawn_robot_type: [1, MiR100]}]
+      - [444.133, 108.57, 0, conf_mir100_start2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_conf_2], spawn_robot_type: [1, MiR100]}]
       - [539.096, 192.616, 0, ""]
       - [602.098, 330.312, 0, ballroom_back, {is_parking_spot: [4, true]}]
       - [542.312, 379.626, 0, ""]
@@ -4583,9 +4583,9 @@ lifts:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
-    reference_floor_name: guest_level
+    reference_floor_name: L1
     width: 2
-    x: 1182.5
+    x: 1236.5
     y: 72
     yaw: 0
   cargo_lift2:
@@ -4601,9 +4601,9 @@ lifts:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
-    reference_floor_name: guest_level
+    reference_floor_name: L1
     width: 2
-    x: 1247.25
+    x: 1301.25
     y: 72
     yaw: 0
   guest_lift1:
@@ -4619,9 +4619,9 @@ lifts:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
-    reference_floor_name: guest_level
+    reference_floor_name: L1
     width: 2.5
-    x: 1220
+    x: 1274
     y: 237.5
     yaw: 0
   guest_lift2:
@@ -4637,9 +4637,9 @@ lifts:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
-    reference_floor_name: guest_level
+    reference_floor_name: L1
     width: 2.5
-    x: 1220
+    x: 1274
     y: 302.5
     yaw: 0
   guest_lift3:
@@ -4655,9 +4655,9 @@ lifts:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
-    reference_floor_name: guest_level
+    reference_floor_name: L1
     width: 2.5
-    x: 1340
+    x: 1394
     y: 237.5
     yaw: 0
   guest_lift4:
@@ -4673,60 +4673,60 @@ lifts:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
-    reference_floor_name: guest_level
+    reference_floor_name: L1
     width: 2.5
-    x: 1340
+    x: 1394
     y: 302.5
     yaw: 0
   guest_lift5:
-    depth: 3
+    depth: 2.5
     doors:
       door:
         door_type: 2
         motion_axis_orientation: 0
         width: 1
         x: 0
-        y: 1.5
+        y: 1.25
     level_doors:
       L1: [door]
       conference_level: [door]
     reference_floor_name: L1
     width: 2.8
     x: 1271.5
-    y: 529
+    y: 524
     yaw: 0
   guest_lift6:
-    depth: 3
+    depth: 2.5
     doors:
       door:
         door_type: 2
         motion_axis_orientation: 0
         width: 1
         x: 0
-        y: 1.5
+        y: 1.25
     level_doors:
       L1: [door]
       conference_level: [door]
     reference_floor_name: L1
     width: 2.8
     x: 1334.3
-    y: 529
+    y: 524
     yaw: 0
   guest_lift7:
-    depth: 3
+    depth: 2.5
     doors:
       door:
         door_type: 2
         motion_axis_orientation: 0
         width: 1
         x: 0
-        y: 1.5
+        y: 1.25
     level_doors:
       L1: [door]
       conference_level: [door]
     reference_floor_name: L1
     width: 2.8
     x: 1396.5
-    y: 529
+    y: 524
     yaw: 0
 name: hotel

@@ -107,7 +107,6 @@ levels:
       - [332, 339, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [333, 340, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [335, 341, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
-      - [342, 343, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [343, 344, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [344, 345, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [345, 338, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
@@ -136,8 +135,11 @@ levels:
       - [317, 313, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [313, 314, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [341, 363, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
-      - [363, 342, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [313, 312, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
+      - [363, 364, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
+      - [364, 342, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
+      - [342, 365, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
+      - [365, 343, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
     layers:
       {}
     measurements:
@@ -610,8 +612,8 @@ levels:
       - [511.022, 409.287, 0, ""]
       - [415.543, 108.828, 0, conf_mir100_start1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_conf_1], spawn_robot_type: [1, MiR100]}]
       - [444.133, 108.57, 0, conf_mir100_start2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_conf_2], spawn_robot_type: [1, MiR100]}]
-      - [539.096, 192.616, 0, ""]
-      - [602.098, 330.312, 0, ballroom_back, {is_parking_spot: [4, true]}]
+      - [541.553, 192.722, 0, ""]
+      - [579.388, 335.331, 0, ballroom_back, {is_parking_spot: [4, true]}]
       - [542.312, 379.626, 0, ""]
       - [539.718, 466.423, 0, ""]
       - [511.335, 465.445, 0, ""]
@@ -632,7 +634,9 @@ levels:
       - [2076.535, 80.068, 0, ""]
       - [2076.535, 120.595, 0, conference2_back, {is_parking_spot: [4, true]}]
       - [2129.843, 52.274, 0, ""]
-      - [540.097, 279.395, 0, ""]
+      - [540.87, 285.439, 0, ""]
+      - [578.354, 284.922, 0, ""]
+      - [578.096, 379.795, 0, ""]
     walls:
       - [0, 1, {alpha: [3, 1], texture_name: [1, default]}]
       - [1, 2, {alpha: [3, 1], texture_name: [1, default]}]
@@ -887,4 +891,6 @@ levels:
       - [301, 307, {alpha: [3, 1], texture_name: [1, default]}]
     x_meters: 150
     y_meters: 40
+lifts:
+  {}
 name: hotel

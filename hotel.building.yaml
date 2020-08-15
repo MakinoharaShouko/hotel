@@ -44,7 +44,7 @@ levels:
       - [65, 66, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ballroom_back1], type: [1, hinged]}]
       - [43, 40, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, ballroom_back2], type: [1, hinged]}]
       - [44, 39, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, ballroom_back3], type: [1, hinged]}]
-      - [51, 49, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, ""], type: [1, hinged]}]
+      - [51, 49, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "ballroom_back4"], type: [1, hinged]}]
     elevation: 10
     fiducials:
       - [1237, 40, ref1]

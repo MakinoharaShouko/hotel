@@ -2168,8 +2168,6 @@ levels:
       - {model_name: cafe_table, name: cafe_table, static: true, x: 1080.245, y: 316.717, yaw: 0, z: 0}
       - {model_name: MiniSofa, name: MiniSofa, static: true, x: 1080.903, y: 298.306, yaw: 0.0059, z: 0}
       - {model_name: wastebasket, name: wastebasket, static: true, x: 1081.542, y: 283.734, yaw: -1.5725, z: 0}
-      - {model_name: ExtinguisherBox, name: ExtinguisherBox, static: true, x: 1343.128, y: 138.978, yaw: -1.5733, z: 0}
-      - {model_name: ExtinguisherBox, name: ExtinguisherBox, static: true, x: 1417.983, y: 123.815, yaw: -1.5697, z: 0}
       - {model_name: BathroomSink, name: BathroomSInk, static: true, x: 1201.927, y: 474.627, yaw: 1.5775, z: 0}
       - {model_name: WhiteCabinet, name: WhiteCabinet, static: true, x: 1187.531, y: 428.357, yaw: 0.0005, z: 0}
       - {model_name: cafe_table, name: cafe_table, static: true, x: 1118.604, y: 433.373, yaw: 0, z: 0}

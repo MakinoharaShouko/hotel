@@ -729,7 +729,7 @@ levels:
       - [1761, 230, 0, ""]
       - [1783, 230, 0, ""]
       - [1804, 230, 0, ""]
-      - [2133.56, 61.716, 0, robot_start3, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, magni_0], spawn_robot_type: [1, Magni]}]
+      - [2133.56, 61.716, 0, robot_start3, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, TinyRobot_0], spawn_robot_type: [1, TinyRobot]}]
       - [2133.746, 115.215, 0, ""]
       - [2190.931, 115.215, 0, ""]
       - [2190.501, 265.185, 0, ""]
@@ -740,7 +740,7 @@ levels:
       - [2323.655, 86.578, 0, security, {is_parking_spot: [4, true]}]
       - [2400.063, 114.622, 0, ""]
       - [2400.251, 69.044, 0, ""]
-      - [2459.897, 69.58499999999999, 0, robot_start1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, magni_1], spawn_robot_type: [1, Magni]}]
+      - [2459.897, 69.58499999999999, 0, robot_start1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, TinyRobot_1], spawn_robot_type: [1, TinyRobot]}]
       - [2328.605, 376.15, 0, guest_pickup2, {is_parking_spot: [4, true]}]
       - [2189.606, 373.609, 0, ""]
       - [2083.376, 398.803, 0, guest_waiting, {is_parking_spot: [4, true]}]
@@ -753,12 +753,12 @@ levels:
       - [1332.658, 237.626, 0, ""]
       - [1332.995, 396.464, 0, ""]
       - [1945.371, 396.495, 0, ""]
-      - [1441.803, 64.026, 0, robot_start4, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_0], spawn_robot_type: [1, MiR100]}]
+      - [1441.803, 64.026, 0, robot_start4, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, DeliveryRobot_0], spawn_robot_type: [1, DeliveryRobot]}]
       - [1439.915, 112.892, 0, locker_room, {is_parking_spot: [4, true]}]
       - [1427.827, 129.587, 0, ""]
       - [1426.847, 165.499, 0, ""]
       - [1398.275, 165.579, 0, ""]
-      - [1397.98, 110.9, 0, robot_start5, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_1], spawn_robot_type: [1, MiR100]}]
+      - [1397.98, 110.9, 0, robot_start5, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, DeliveryRobot_1], spawn_robot_type: [1, DeliveryRobot]}]
       - [1302.24, 166.095, 0, ""]
       - [1236.048, 165.114, 0, ""]
       - [1092.19, 164.568, 0, ""]
@@ -810,7 +810,7 @@ levels:
       - [961.322, 499.267, 0, ""]
       - [695.521, 499.735, 0, ""]
       - [826.149, 499.678, 0, ""]
-      - [2536.237, 114.592, 0, robot_start2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, magni_2], spawn_robot_type: [1, Magni]}]
+      - [2536.237, 114.592, 0, robot_start2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, TinyRobot_2], spawn_robot_type: [1, TinyRobot]}]
       - [551.521, 399.147, 0, ""]
       - [553.172, 291.338, 0, ""]
       - [551.467, 500.193, 0, ""]
@@ -1644,8 +1644,8 @@ levels:
       - [2131.534, 394.969, 0, ""]
       - [2130.506, 101.913, 0, ""]
       - [2277.559, 103.204, 0, ""]
-      - [2277.872, 53.193, 0, conf_magni_start, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, magni_conf_0], spawn_robot_type: [1, Magni]}]
-      - [344.711, 107.54, 0, conf_mir100_start0, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_conf_0], spawn_robot_type: [1, MiR100]}]
+      - [2277.872, 53.193, 0, conf_TinyRobot_start, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, TinyRobot_conf_0], spawn_robot_type: [1, TinyRobot]}]
+      - [344.711, 107.54, 0, conf_DeliveryRobot_start0, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, DeliveryRobot_conf_0], spawn_robot_type: [1, DeliveryRobot]}]
       - [344.711, 53.965, 0, ""]
       - [414.77, 53.708, 0, ""]
       - [444.391, 53.965, 0, ""]
@@ -1654,8 +1654,8 @@ levels:
       - [511.284, 247.967, 0, ""]
       - [442.435, 247.967, 0, conf_kitchen, {is_parking_spot: [4, true]}]
       - [511.022, 409.287, 0, ""]
-      - [415.543, 108.828, 0, conf_mir100_start1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_conf_1], spawn_robot_type: [1, MiR100]}]
-      - [444.133, 108.57, 0, conf_mir100_start2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_conf_2], spawn_robot_type: [1, MiR100]}]
+      - [415.543, 108.828, 0, conf_DeliveryRobot_start1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, DeliveryRobot_conf_1], spawn_robot_type: [1, DeliveryRobot]}]
+      - [444.133, 108.57, 0, conf_DeliveryRobot_start2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, DeliveryRobot_conf_2], spawn_robot_type: [1, DeliveryRobot]}]
       - [539.096, 192.616, 0, ""]
       - [602.098, 330.312, 0, ballroom_back, {is_parking_spot: [4, true]}]
       - [542.312, 379.626, 0, ""]
@@ -3727,7 +3727,7 @@ levels:
       - [211.554, 259.617, 0, ""]
       - [113.701, 259.904, 0, ""]
       - [74.38800000000001, 274.252, 0, room4, {is_parking_spot: [4, true]}]
-      - [267.958, 257.036, 0, closet1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_3], spawn_robot_type: [1, MiR100]}]
+      - [267.958, 257.036, 0, closet1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, DeliveryRobot_3], spawn_robot_type: [1, DeliveryRobot]}]
       - [240, 265, 0, ""]
       - [420.18, 165.987, 0, ""]
       - [548.929, 167.335, 0, ""]
@@ -3765,7 +3765,7 @@ levels:
       - [1340, 545, 0, ""]
       - [1292.692, 109.847, 0, ""]
       - [1292.692, 79.929, 0, ""]
-      - [1321.327, 79.929, 0, cleaning, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_2], spawn_robot_type: [1, MiR100]}]
+      - [1321.327, 79.929, 0, cleaning, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, DeliveryRobot_2], spawn_robot_type: [1, DeliveryRobot]}]
       - [211.716, 390.422, 0, ""]
       - [102.862, 389.367, 0, ""]
       - [72.458, 372.295, 0, room5, {is_parking_spot: [4, true]}]
@@ -3846,7 +3846,7 @@ levels:
       - [2460.213, 200.566, 0, ""]
       - [2488.581, 182.857, 0, room32, {is_parking_spot: [4, true]}]
       - [2345.524, 255.489, 0, ""]
-      - [2292.015, 257.266, 0, closet2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100_4], spawn_robot_type: [1, MiR100]}]
+      - [2292.015, 257.266, 0, closet2, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, DeliveryRobot_4], spawn_robot_type: [1, DeliveryRobot]}]
       - [2412.459, 263.19, 0, ""]
       - [2459.764, 263.473, 0, ""]
       - [2488.053, 276.113, 0, room33, {is_parking_spot: [4, true]}]
@@ -4584,10 +4584,12 @@ lifts:
         width: 1
         x: 0
         y: -1.125
+    highest_floor: ""
     level_doors:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
+    lowest_floor: L1
     reference_floor_name: L1
     width: 2
     x: 1236.5
@@ -4602,10 +4604,12 @@ lifts:
         width: 1
         x: 0
         y: -1.125
+    highest_floor: ""
     level_doors:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
+    lowest_floor: ""
     reference_floor_name: L1
     width: 2
     x: 1301.25
@@ -4620,10 +4624,12 @@ lifts:
         width: 1
         x: 1.25
         y: 0
+    highest_floor: ""
     level_doors:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
+    lowest_floor: L1
     reference_floor_name: L1
     width: 2.5
     x: 1271.5
@@ -4638,10 +4644,12 @@ lifts:
         width: 1
         x: 1.25
         y: 0
+    highest_floor: ""
     level_doors:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
+    lowest_floor: ""
     reference_floor_name: L1
     width: 2.5
     x: 1271.5
@@ -4656,10 +4664,12 @@ lifts:
         width: 1
         x: -1.25
         y: 0
+    highest_floor: ""
     level_doors:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
+    lowest_floor: ""
     reference_floor_name: L1
     width: 2.5
     x: 1396.5
@@ -4674,10 +4684,12 @@ lifts:
         width: 1
         x: -1.25
         y: 0
+    highest_floor: ""
     level_doors:
       L1: [door]
       conference_level: [door]
       guest_level: [door]
+    lowest_floor: ""
     reference_floor_name: L1
     width: 2.5
     x: 1396.5
@@ -4692,9 +4704,11 @@ lifts:
         width: 1
         x: 0
         y: 1.25
+    highest_floor: conference_level
     level_doors:
       L1: [door]
       conference_level: [door]
+    lowest_floor: ""
     reference_floor_name: L1
     width: 2.8
     x: 1271.5
@@ -4709,9 +4723,11 @@ lifts:
         width: 1
         x: 0
         y: 1.25
+    highest_floor: conference_level
     level_doors:
       L1: [door]
       conference_level: [door]
+    lowest_floor: ""
     reference_floor_name: L1
     width: 2.8
     x: 1334.3
@@ -4726,9 +4742,11 @@ lifts:
         width: 1
         x: 0
         y: 1.25
+    highest_floor: conference_level
     level_doors:
       L1: [door]
       conference_level: [door]
+    lowest_floor: ""
     reference_floor_name: L1
     width: 2.8
     x: 1396.5
